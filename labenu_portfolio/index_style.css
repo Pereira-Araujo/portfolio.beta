@@ -1,254 +1,214 @@
-
 /*GERAL*/
-body{
-
-    margin:0%;
-    font-family:"Poppins-Regular";
-
-
+body {
+  margin: 0%;
+  font-family: "Poppins-Regular";
 }
 
-a{
-    text-decoration: none;
-    color:black;
-
-
+a {
+  text-decoration: none;
+  color: black;
 }
 
-@font-face{ /*PESQUISAR MELHOR SOBRE @FONT-FACE*/
- font-family:"MuseoModerno";
- src:url("font/museo/MuseoModerno-VariableFont_wght.ttf");
-
+@font-face {
+  /*PESQUISAR MELHOR SOBRE @FONT-FACE*/
+  font-family: "MuseoModerno";
+  src: url("font/museo/MuseoModerno-VariableFont_wght.ttf");
 }
-@font-face{
-    font-family:"Poppins-Regular";
-    src:url("font/poppins/Poppins-Regular.ttf");
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("font/poppins/Poppins-Regular.ttf");
 }
-@font-face{
-    font-family:"MuseoModerno-Bold";
-    src:url("font/museo/MuseoModerno-Bold.ttf");
+@font-face {
+  font-family: "MuseoModerno-Bold";
+  src: url("font/museo/MuseoModerno-Bold.ttf");
 }
-main{
-    display:flex;
-    flex-direction:row;
-}
- 
-section{
-    height:100rem;
-
+main {
+  display: flex;
+  flex-direction: row;
 }
 
-/*SECTION LEFT GERAL*/
+section {
+  height: 100rem;
+}
 
+/*ESQUERDA-GERAL*/
 
 #leftSection {
-width:30rem;
-position:fixed;   
-background:white; 
+  width: 30rem;
+  position: fixed;
+  background: white;
 }
 
-/*SECTION LEFT INSIDE*/
+/*ESQUERDA--CONTEUDO*/
 
-#back_bauhaus{
-    background:url(img/yellow-box.jpg);
-    background-repeat: no-repeat;
-    background-size:11rem 13rem;
-    background-position-x:5rem;
-    background-position-y:2rem;
-    
-    
+#back_bauhaus {
+  background: url(img/yellow-box.jpg);
+  background-repeat: no-repeat;
+  background-size: 11rem 13rem;
+  background-position-x: 5rem;
+  background-position-y: 2rem;
 }
 
-#back_bauhaus img{
-    width:10rem;
-    height:10rem;
-    margin-left:9rem;
-    margin-top:2rem;
+#back_bauhaus img {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 9rem;
+  margin-top: 2rem;
 }
 
-#leftSection h3{
-    font-family:"MuseoModerno";
-    margin-right:2rem;
-    margin-top:3rem;  
-    text-align:center;
-
+#leftSection h3 {
+  font-family: "MuseoModerno";
+  margin-right: 2rem;
+  margin-top: 3rem;
+  text-align: center;
 }
 
-
-#leftSection p{
-    text-align:center;
-
+#leftSection p {
+  text-align: center;
 }
-/*SECTION LEFT INSIDE
---------SKILLS!!
+/* ESQUERDA--CONTEUDO--SKILLS
 */
 
-
-#leftSection ul{
-    margin-left:5rem;
-    background:url(img/yellow-box.jpg);
-    background-size: 6rem 4rem;
-    background-repeat: no-repeat; 
-    background-position-y: top;
-    background-position-x: right;
-
+#leftSection ul {
+  margin-left: 5rem;
+  background: url(img/yellow-box.jpg);
+  background-size: 6rem 4rem;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: right;
 }
 
-ul{
-    list-style: none;
-    
+ul {
+  list-style: none;
 }
-li{
-    margin-left:-2rem;
-}
-
-
-/*SECTION RIGHT GERAL*/
- #rightSection{
-    
-
-    margin-left:32rem;
-    margin-right:2rem;
- }
-
- /*SECTION RIGHT INSIDE*/
-
-
- /*MENU*/
- nav{
-     
-     height:3rem;
-     position:fixed;
-     width:100%;
-     background:white;
-     padding-top:0.8rem;
-     font-family:"MuseoModerno-Bold";
-     
- }
-
- nav a{
-    
-    margin-left:2rem;
-
- }
-
-
- /*CONTEUDO*/
- #rightSection article{
-     margin-top:5rem;
-     margin-left:1rem;
- }
- #rightSection h1,h2{
-     font-family:"Poppins-Regular";
-     font-size:1.5rem;
-     
- }
- #titleAbout{
-     padding-top:2rem;
- }
-
- #marcador{
-     font-weight: bolder;
- }
- #text-icon{
-     width:1rem;
- }
-
- /*EXPERIÊNCIA*/
-
- #experiencia{
-     width:80%;
-     display:flex;
-     flex-direction:row;
-     justify-content: space-around;
- }
-#experiencia_educacao{
-    margin-top:3rem;
-}
-#experiencia_job{
-    margin-top:3rem
-}
- 
-
-
-
-
- /*ARTICLE PROJETOS*/
-
- 
-#titleBauhaus{
-    height:6rem;
-    background-image: url(img/bauhaus-back.jpg);
-
-    background-size: 5rem;
-    background-repeat: no-repeat;
-    background-position: 8rem 3rem;
-  
-
-}
-#titleBauhaus h2{
-    padding-top:3rem;
+li {
+  margin-left: -2rem;
 }
 
+/*ESQUERDA--CONTEUDO--LINKS*/
 
-#container-gallery{
-    display:flex;
-    justify-content:space-between;
+footer {
+  text-align: center;
+  margin-top: 6.5rem;
+}
+footer img {
+  width: 3rem;
 }
 
-.projects{
-    margin-top:3rem;
-    width:20rem;
-    height:24rem;
-}
-figure{
-    text-align:center;
+/*
+---------------------------------------------------------------------------------------------------------
+DIREITA */
 
-
+#rightSection {
+  margin-left: 32rem;
+  margin-right: 2rem;
 }
 
-figcaption p{
-    margin-top:1px;
+/**DIREITA--CONTEUDO/
+
+ /*DIREITA--MENU*/
+nav {
+  height: 3rem;
+  position: fixed;
+  width: 100%;
+  background: white;
+  padding-top: 0.8rem;
+  font-family: "MuseoModerno-Bold";
 }
 
- figcaption b{
-    font-family:"MuseoModerno";
-    font-size:18px;
+nav a {
+  margin-left: 2rem;
 }
 
-
-
-
-/*CONTATO*/
-
-footer{
-    text-align:center;
-    margin-top:6.5rem;
-
+/*DIREITA--ABOUT*/
+#rightSection article {
+  margin-top: 5rem;
+  margin-left: 1rem;
 }
-footer img{
-    width:3rem;
-    
+#rightSection h1,
+h2 {
+  font-family: "Poppins-Regular";
+  font-size: 1.5rem;
 }
- 
-
-form{
-    text-align:center;
+#titleAbout {
+  padding-top: 2rem;
 }
 
-form p{
-    margin-top:-1.5rem;
+#marcador {
+  font-weight: bolder;
+}
+#text-icon {
+  width: 1rem;
 }
 
-form img{
-    position:relative;
-    top:0.75rem;
-    width:3rem;
-    
+/*DIREITA--EXPERIÊNCIA*/
+
+#experiencia {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#experiencia_educacao {
+  margin-top: 3rem;
+}
+#experiencia_job {
+  margin-top: 3rem;
 }
 
-textarea{
-    
-    margin-top:2rem;
+/*DIREITA--PROJETOS*/
+
+#titleBauhaus {
+  height: 6rem;
+  background-image: url(img/bauhaus-back.jpg);
+
+  background-size: 5rem;
+  background-repeat: no-repeat;
+  background-position: 8rem 3rem;
+}
+#titleBauhaus h2 {
+  padding-top: 3rem;
 }
 
+#container-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects {
+  margin-top: 3rem;
+  width: 20rem;
+  height: 24rem;
+}
+figure {
+  text-align: center;
+}
+
+figcaption p {
+  margin-top: 1px;
+}
+
+figcaption b {
+  font-family: "MuseoModerno";
+  font-size: 18px;
+}
+
+/*DIREITA--CONTEUDO--CONTATO*/
+
+form {
+  text-align: center;
+}
+
+form p {
+  margin-top: -1.5rem;
+}
+
+form img {
+  position: relative;
+  top: 0.75rem;
+  width: 3rem;
+}
+
+textarea {
+  margin-top: 2rem;
+}
