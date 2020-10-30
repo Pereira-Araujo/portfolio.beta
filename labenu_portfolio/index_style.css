@@ -34,7 +34,7 @@ main{
 }
  
 section{
-    height:48rem;
+    height:100rem;
 
 }
 
@@ -50,7 +50,6 @@ background:white;
 /*SECTION LEFT INSIDE*/
 
 #back_bauhaus{
-    /*background:url(https://i.pinimg.com/originals/ae/7d/5b/ae7d5b24e7deb525b5d3661a2a3c244a.jpg);*/
     background:url(img/yellow-box.jpg);
     background-repeat: no-repeat;
     background-size:11rem 13rem;
@@ -102,21 +101,11 @@ ul{
 li{
     margin-left:-2rem;
 }
-/*CONTATO*/
 
-footer{
-    text-align:center;
-    margin-top:6.5rem;
-
-}
-footer img{
-    width:3rem;
-    
-
-}
 
 /*SECTION RIGHT GERAL*/
  #rightSection{
+    
 
     margin-left:32rem;
     margin-right:2rem;
@@ -149,10 +138,13 @@ footer img{
      margin-top:5rem;
      margin-left:1rem;
  }
- #rightSection article h1,h2{
-     font-family:"MuseoModerno";
+ #rightSection h1,h2{
+     font-family:"Poppins-Regular";
      font-size:1.5rem;
      
+ }
+ #titleAbout{
+     padding-top:2rem;
  }
 
  #marcador{
@@ -162,15 +154,35 @@ footer img{
      width:1rem;
  }
 
+ /*EXPERIÊNCIA*/
+
+ #experiencia{
+     width:80%;
+     display:flex;
+     flex-direction:row;
+     justify-content: space-around;
+ }
+#experiencia_educacao{
+    margin-top:3rem;
+}
+#experiencia_job{
+    margin-top:3rem
+}
+ 
+
+
+
+
  /*ARTICLE PROJETOS*/
+
+ 
 #titleBauhaus{
     height:6rem;
-    margin-top:-3em;
     background-image: url(img/bauhaus-back.jpg);
 
     background-size: 5rem;
     background-repeat: no-repeat;
-    background-position: 10rem 3rem;
+    background-position: 8rem 3rem;
   
 
 }
@@ -185,7 +197,7 @@ footer img{
 }
 
 .projects{
-    margin-top:4rem;
+    margin-top:3rem;
     width:20rem;
     height:24rem;
 }
@@ -203,8 +215,22 @@ figcaption p{
     font-family:"MuseoModerno";
     font-size:18px;
 }
- 
+
+
+
+
 /*CONTATO*/
+
+footer{
+    text-align:center;
+    margin-top:6.5rem;
+
+}
+footer img{
+    width:3rem;
+    
+}
+ 
 
 form{
     text-align:center;
