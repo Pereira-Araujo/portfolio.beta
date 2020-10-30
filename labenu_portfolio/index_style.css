@@ -214,34 +214,10 @@ textarea {
 }
 
 
-/*TENTATIVA DE RESPONSIVIDADE*/
 
 
-/*GERAL*/
-@media (max-width:775px){
-  main{
-    display:flex;
-    flex-direction:column;
-
-}
-
-section{
-  height:50%;
-  
-}
-
-#leftSection{
-    position:auto;
-    width:100%;
-    background-color: blue;
-
-   
-}
-#rightSection{
-  margin-left:0px;
-}
-}
-}
   
 
-/*MENU*/
+
+
+
