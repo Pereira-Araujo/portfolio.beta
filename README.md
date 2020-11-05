@@ -1,4 +1,4 @@
-# portfolio.beta
+# Portfolio.beta
 
 Projeto de criação de uma página pessoal para divulgação de portfólio - exercício do curso de Front-End com React da [Labenu](https://www.labenu.com.br/) :heart_eyes:             
 
