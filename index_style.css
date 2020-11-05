@@ -1,28 +1,79 @@
 /*GERAL*/
 body {
   margin: 0%;
-  font-family: "Poppins-Regular";
+  font-family:"poppins";
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color:black;
 }
 
-@font-face {
-    /*PESQUISAR MELHOR SOBRE @FONT-FACE*/
- font-family: "Poppins-Regular";
-  src: url("font/poppins/Poppins-Regular.ttf");
-}
-@font-face{
-  font-family:"peyo";
-  src:url("font/PeyoRegular.ttf");
-}
+
+  /*PESQUISAR MELHOR SOBRE @FONT-FACE*/
+
+  @font-face{
+    font-family: "poppins";
+    src:url("font/poppins/Poppins-Regular.ttf");
+  }
 
 main {
   display: flex;
   flex-direction: row;
 }
+
+
+/*DIREITA--MENU*/
+nav {
+  height: 6rem;
+  position:fixed;
+  width:100%;
+  background:black;
+  padding-top: 0.8rem;
+
+}
+
+nav span img{
+  width:4rem;
+  height:4rem;
+  margin-left:10rem;
+  
+  
+}
+nav span{
+  color:white;
+ 
+
+ 
+}
+
+#nav-detail img{
+  width:4rem;
+  height:3rem;
+  margin-left:12rem;
+  margin-bottom:0.5rem;
+ 
+
+}
+#nav-portfolio{
+  position:relative;
+  top:1.5rem;
+  right:4.2rem;
+}
+
+nav a {
+color:white;
+margin-right:4rem;
+
+}
+
+#nav-full{
+  float:right;
+  margin-top:1.5rem;
+
+
+}
+ 
 
 section {
   height: 100rem;
@@ -31,9 +82,10 @@ section {
 /*ESQUERDA-GERAL*/
 
 #leftSection {
+  margin-top:9rem;
   width: 30rem;
-  position: fixed;
-  background:white;
+  position:fixed;
+  background: white;
 }
 
 /*ESQUERDA--CONTEUDO*/
@@ -50,20 +102,12 @@ section {
   width: 10rem;
   height: 10rem;
   margin-left: 9rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
-#leftSection h2{
-  font-family: "peyo";
+#leftSection h3 {
   margin-right: 2rem;
-  margin-top: 3rem;
-  margin-bottom:1rem;
-  text-align: center;
-}
-#leftSection h3{
-  margin-right: 2rem;
-  margin-top: 3rem;
-  margin-bottom:1rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -84,6 +128,7 @@ section {
 
 ul {
   list-style: none;
+  margin-bottom:1rem;
 }
 li {
   margin-left: -2rem;
@@ -93,61 +138,37 @@ li {
 
 footer {
   text-align: center;
-  margin-top: 6.5rem;
+  margin-top:2rem;
 }
 footer img {
   width: 3rem;
 }
-
 
 /*
 ---------------------------------------------------------------------------------------------------------
 DIREITA */
 
 #rightSection {
-
   margin-left: 32rem;
   margin-right: 2rem;
-  background-color:white;
- 
 }
 
 /**DIREITA--CONTEUDO/
 
- /*DIREITA--MENU*/
-nav{
-  height:4rem;
-  position: fixed;
-  width: 100%;
-  background:white;
-  padding-top: 2rem;
-  font-family: "Poppins-Regular"; 
-  font-weight:bolder;
-  font-size:18px;
-}
 
-nav a {
-  margin-left: 2rem;
-}
 
-nav a:hover{
-filter:invert(30%);
-}
 
 /*DIREITA--ABOUT*/
 #rightSection article {
-
   margin-top: 5rem;
   margin-left: 1rem;
 }
 #rightSection h1,
 h2 {
-  font-family: "Poppins-Regular";
   font-size: 1.5rem;
 }
 #titleAbout {
   padding-top: 2rem;
-  font-size:18px;
 }
 
 #marcador {
@@ -159,38 +180,21 @@ h2 {
 
 /*DIREITA--EXPERIÊNCIA*/
 
-#experiencia_back{
-  background-image: url(img/yellow-box.jpg);
-  background-repeat: no-repeat;
-  background-size: 22rem;
-
-  background-position:16rem;
-
-}
-
 #experiencia {
   width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-#experiencia_educacao, #experiencia_job{
+#experiencia_educacao {
   margin-top: 3rem;
-  font-size: 18px;
 }
-
-
+#experiencia_job {
+  margin-top: 3rem;
+}
 
 /*DIREITA--PROJETOS*/
 
-#titleBauhaus {
-  height: 6rem;
-  background-image: url(img/bauhaus-back.jpg);
-
-  background-size: 5rem;
-  background-repeat: no-repeat;
-  background-position: 8rem 3rem;
-}
 #titleBauhaus h2 {
   padding-top: 3rem;
 }
@@ -214,7 +218,6 @@ figcaption p {
 }
 
 figcaption b {
-  font-family: "MuseoModerno";
   font-size: 18px;
 }
 
@@ -237,12 +240,3 @@ form img {
 textarea {
   margin-top: 2rem;
 }
-
-
-
-
-  
-
-
-
-
