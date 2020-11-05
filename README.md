@@ -10,12 +10,11 @@ Projeto de criação de uma página pessoal para divulgação de portfólio - ex
 - [ ] Responsividade no index/Principal
 - [x] Responsividade das páginas dos projetos(ainda não totalmente responsiva) 
 
-## IMAGEM 1
 
 ![](https://github.com/Pereira-Araujo/portfolio.beta/blob/master/img/1.png?raw=true)
 
 
-## IMAGEM 2
+///////////////////////////////////////////////////////////////////////////////////
 
 
 ![](https://github.com/Pereira-Araujo/portfolio.beta/blob/master/img/2.png?raw=true)
