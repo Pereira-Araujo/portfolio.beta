@@ -19,9 +19,9 @@ O Resultado pode ser visto aqui <img src="https://toppng.com/uploads/preview/fin
 
 ## Prints abaixo
 
-<img src="https://github.com/Pereira-Araujo/portfolio.beta/blob/master/img/1.png?raw=true">
+<img src="here\img\1.png">
 
                                          ***
 
-<img src="https://github.com/Pereira-Araujo/portfolio.beta/blob/master/img/2.png?raw=true">
+<img src="here\img\2.png">
 
