@@ -7,21 +7,30 @@ let js = document.getElementById("js");
 let codePen = document.getElementById("code-pen");
 let linkedin = document.getElementById("linkedin");
 
+let iconsArray = [
+  plus,
+  html,
+  css,
+  js,
+  codePen,
+  linkedin
+]
+
 // dark theme
 let container = document.querySelector("*");
+let buttonNightDay = document.getElementById("nightDay");
 
-function nightDay() {
+buttonNightDay.addEventListener("click", function nightDay() {
+  
   container.classList.toggle("dark");
 
-  plus.classList.toggle("dark-icons");
-  html.classList.toggle("dark-icons");
-  css.classList.toggle("dark-icons");
-  js.classList.toggle("dark-icons");
-  codePen.classList.toggle("dark-icons");
-  linkedin.classList.toggle("dark-icons");
-}
+  iconsArray.forEach(function (icons) {
+    icons.classList.toggle("dark-icons");
+  });
+});
 
-// works
+
+// Carousel gallery
 
 !(function (d) {
   var itemClassName = "carousel__photo";
