@@ -1,27 +1,10 @@
 # Portfolio.beta
 
-Projeto de criação de uma página pessoal para divulgação de portfólio - exercício do curso de Front-End com React da [Labenu](https://www.labenu.com.br/) :heart_eyes:             
+🚧👷
 
-O Resultado pode ser visto aqui <img src="https://toppng.com/uploads/preview/finger-finger-icon-left-right-png-and-psd-finger-pointing-icon-115631043687g3bxc2upl.png" width="30"><a href="https://portfoliobeta.araujocoding.repl.co/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/768px-Repl.it_logo.svg.png" width="50"></a>
-
-
-## Checklist
-
-- [x] Buscar Referência (Bauhaus)
-- [x] Criação do HTML
-- [x] Criação do CSS
-- [ ] Responsividade no index/Principal
-- [x] Responsividade das páginas dos projetos(ainda não totalmente responsiva) 
+- Resultado não definitivo : https://port.araujocoding.repl.co/
+- Atualização de site-portfólio...
 
 
-
-
-
-## Prints abaixo
-
-<img src="here\img\1.png">
-
-                                         ***
-
-<img src="here\img\2.png">
-
+![](https://64.media.tumblr.com/94df85146f1f81aa2a47830d77c8c61c/876f6b3cae29e79f-b5/s2048x3072/413db8efea596330ed0ae8efd91f1f0907d307be.png)
+![](https://64.media.tumblr.com/725e57c86233ebeb9a801e4b7f65bd7e/876f6b3cae29e79f-c0/s2048x3072/630288480e2408259d71f75cc1b2a7b9e7f69cd3.png)
