@@ -1,9 +1,9 @@
 # Portfolio.beta
 
 🚧👷
+- Atualização de site-portfólio...
 
 - Resultado não definitivo : https://port.araujocoding.repl.co/
-- Atualização de site-portfólio...
 
 
 ![](https://64.media.tumblr.com/94df85146f1f81aa2a47830d77c8c61c/876f6b3cae29e79f-b5/s2048x3072/413db8efea596330ed0ae8efd91f1f0907d307be.png)
