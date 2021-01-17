@@ -3,209 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="index_style.css" rel="stylesheet" />
-    <title>Araujo_port</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="profile.css" rel="stylesheet" />
+    <title>Portfólio Teste</title>
   </head>
 
   <body>
     <main>
+      <!--  -->
+      <div id="button-dark-light">
+        <p onclick="nightDay()">Dark/Light</p>
+      </div>
 
-      <nav>
-        <span id="nav-image">
-        <img src="https://exchangedownloads.smarttech.com/public/content/54/5400f810-8120-41d4-acee-0d0175f72e6c/previews/medium/0001.png">
-        </span>
-        <span id="nav-portfolio">Portfólio</span>
-        <span id="nav-detail"><img src="img/bauhaus-back.jpg">
-        </span>
+      <!--  -->
 
-        
-        <div id="nav-full">
-        <a href="#titleAbout">Sobre Mim</a>
-        <a href="#skills">Skills</a>
-        <a href="#experiencia">Educação/Experiência</a>
-        <a href="#titleBauhaus">Portfólio</a>
-        <a href="#contato">Contato</a>
-        </div>
-      </nav>
+      <section id="firstColumn">
+        <article id="containerArticle">
+          <figure>
+            <img src="img/araujo.png" alt="profile picture" />
+          </figure>
 
-      <!--ESQUERDA-GERAL-->
+          <article id="bio">
+            <h4>Adriano P. de Araujo</h4>
 
-      <section id="leftSection">
-        <div id="back_bauhaus">
-          <img src="img/pngwing.com.png" alt="uiui" />
-        </div>
+            <p>
+              Olá, meu neu nome é <b>Adriano</b>, sou estudante de programação
+              na Labenu! Apaixonado por <b>Front-End!</b>
+            </p>
+          </article>
 
-        <h3>Adriano P de Araujo</h3>
+          <h4 class="subTitle">Skills</h4>
 
-        <!--ESQUERDA--CONTEUDO--SKILLS-->
+          <article class="icons">
+            <img id="html" src="img/html.png" />
+            <img id="css" src="img/css.png" />
+            <img id="js" src="img/javascript.png" />
+            <img src="img/github.png" />
+          </article>
 
-        <h3>SKILLS</h3>
-        <p>Com base em 100%</p>
-        <div id="skills">
-          <ul>
-            <li>
-              <!--Preciso aprender a cor das barras ⇘⇩ -->
-              HTML<progress class="progress" value="70" max="100">
-                70 %
-              </progress>
-            </li>
-            <li>
-              CSS<progress class="progress" value="50" max="100">50%</progress>
-            </li>
-            <li>
-              JavaScript
-              <progress class="progress" value="20" max="100">20%</progress>
-            </li>
-            <li>
-              Inglês<progress class="progress" value="50" max="100">
-                50%
-              </progress>
-            </li>
-            <li>
-              Word, Excel & PowerPoint
-              <progress class="progress" value="50" max="100">50%</progress>
-            </li>
-            <li>
-              Git <progress class="progress" value="20" max="100">20%</progress>
-            </li>
-            <li>
-              MultiTasks
-              <progress class="progress" value="100" max="100">100%</progress>
-            </li>
-          </ul>
-        </div>
+          <h4 class="subTitle">Aprendendo</h4>
 
-        <!--ESQUERDA--CONTEUDO--LINKS-->
+          <article class="icons">
+            <img id="plus" src="img/c.png" />
+            <img id="react" src="img/react.jpg" />
+          </article>
 
-        <footer>
-          <a
-            href="https://www.linkedin.com/in/adriano-p-de-araujo-0776ab19b/"
-            target="_blank"
-            ><img src="img/linkedin.png" alt="icone linkedin"
-          /></a>
-          <a href="https://github.com/Pereira-Araujo" target="_blank"
-            ><img src="img/github_link.png" alt="icone github"
-          /></a>
-          <a href="https://repl.it/@Araujocoding" target="_blank"
-            ><img src="img/repl_link.png" alt="icone repl"
-          /></a>
-        </footer>
+          <h4 class="subTitle">Me Ache:</h4>
+
+          <article class="icons">
+            <a
+              id="linkedin"
+              href="https://www.linkedin.com/in/araujocode/"
+              target="_blank"
+              ><img src="img/linkedin.png"
+            /></a>
+            <a id="repl" href="https://repl.it/@Araujocoding" target="_blank"
+              ><img src="img/repl.png"
+            /></a>
+            <a id="code-pen" href="https://codepen.io/araujo6_6" target="_blank"
+              ><img src="img/codepen.png"
+            /></a>
+            <a
+              id="github"
+              href="https://github.com/Pereira-Araujo"
+              target="_blank"
+              ><img src="img/github.png"
+            /></a>
+          </article>
+        </article>
       </section>
 
-      <!--
-        --------------------------------------------------------------------------
-        DIREITA-->
+      <!--secondColumn  -->
 
-      <section id="rightSection">
-        
-        <!--DIREITA--CONTEUDO -->
+      <section id="secondColumn">
+        <!--gallery  -->
+        <div class="carousel-wrapper">
+          <h3 class="subTitle">Alguns Projetos</h3>
 
-        <!--DIREITA--CONTEUDO--ABOUT-->
-        <article id="titleAbout">
-          <h1>SOBRE MIM</h1>
-          <p>
-            Olá meu nome é <b>Adriano</b>, sou carioca e estudante de
-            <b>desolvimento web</b>, especificamente <b>Front-End</b>,
-            atualmente sou aluno da escola mais top do Brasil:
-            <a id="marcador" target="_blank" href="https://www.labenu.com.br/"
-              ><img id="text-icon" src="img/gif-labenu.gif" />A Labenu<img
-                id="text-icon"
-                src="img/gif-labenu.gif"
+          <div class="carousel">
+            <a
+              href="https://lunasocialmedia.araujocoding.repl.co/"
+              target="_blank"
+              ><img class="carousel__photo initial" src="img/luna.png"
             /></a>
-            Ah é, já ia me esquecendo, sou estudante de Relações Internacionais
-            e um apaixonado por literatura, línguas, filosofia e economia.
-          </p>
-        </article>
 
-        <!--DIREITA--CONTEUDO--EXPERIENCIAS-->
-        <article id="experiencia">
-          <div id="experiencia_educacao">
-            <h3>EDUCAÇÃO</h3>
-            <ul>
-              <li>
-                <b>Labenu</b>
-                <ul>
-                  <li>Front-End com React // 2020-2021</li>
-                </ul>
-              </li>
-              <li>
-                <b>Uninter</b>
-                <ul>
-                  <li>Relações Internacionais // 2018-2021</li>
-                </ul>
-              </li>
-            </ul>
+            <a
+              href="https://othersidestore.araujocoding.repl.co/"
+              target="_blank"
+              ><img class="carousel__photo" src="img/otherside.png"
+            /></a>
+
+            <a href="https://upfour.araujocoding.repl.co/" target="_blank"
+              ><img class="carousel__photo" src="img/upfour.png"
+            /></a>
+
+            <a href="https://zealous-head.surge.sh/" target="_blank"
+              ><img class="carousel__photo" src="img/labedin.png"
+            /></a>
+
+            <a href="https://planner.araujocoding.repl.co/" target="_blank"
+              ><img class="carousel__photo" src="img/planner.png"
+            /></a>
+
+            <div class="carousel__button--next"></div>
+            <div class="carousel__button--prev"></div>
           </div>
-
-          <div id="experiencia_job">
-            <h3>EXPERIÊNCIA</h3>
-            <ul>
-              <li>
-                <b>Via Mia</b>
-                <ul>
-                  <li>Estoquista // 2017-2019</li>
-                </ul>
-              </li>
-              <li>
-                <b>Richards</b>
-                <ul>
-                  <li>Estoquista // 2014-2016</li>
-                </ul>
-              </li>
-              <li>
-                <b>E.M. Albertino Lopes</b>
-                <ul>
-                  <li>Inspetor de Alunos</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </article>
-
-        <!--DIREITA--CONTEUDO--PROJETOS-->
-        <article id="projetos_contato">
-          <div id="titleBauhaus">
-            <h2>PROJETOS</h2>
-          </div>
-
-          <div id="container-gallery">
-            <a href="lunaSocialMedia.html" target="_blank">
-              <figure>
-                <img
-                  class="projects"
-                  src="img\projectLuna.png"
-                  alt="projeto Luna"
-                />
-                <figcaption><b>Agregador de Links👆🏾</b></figcaption>
-              </figure>
-            </a>
-
-            <a href="linksRe.html" target="_blank">
-              <figure>
-                <img
-                  class="projects"
-                  src="img/projectRe.png"
-                  alt="projeto Re"
-                />
-                <figcaption><b>Agregador de Links👆🏾</b></figcaption>
-              </figure>
-            </a>
-          </div>
-          <!--DIREITA--CONTEUDO--CONTATO-->
-          <form id="contato">
-            <h2>CONTATO</h2>
-
-            <p>(Talvez um café?<img src="img/coffe.png" />)</p>
-
-            <label>Nome</label> <input type="text" id="name" name="name" />
-            <label>Email</label> <input type="email" id="email" name="mail" />
-            <p></p>
-            <textarea id="story" name="story" rows="5" cols="33">
-Mensagem...</textarea
-            >
-          </form>
-        </article>
+        </div>
+        <!--  -->
       </section>
     </main>
+    <script src="profile.js"></script>
   </body>
 </html>
