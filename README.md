@@ -5,7 +5,7 @@
 
 - Atualmente trabalhando em uma versão em React do site-portfólio(13/02/21)
 
-- Resultado não definitivo : https://port.araujocoding.repl.co/
+- Resultado não definitivo(em HTML,CSS e JS puro) : https://port.araujocoding.repl.co/
 
 
 ![](https://64.media.tumblr.com/94df85146f1f81aa2a47830d77c8c61c/876f6b3cae29e79f-b5/s2048x3072/413db8efea596330ed0ae8efd91f1f0907d307be.png)
