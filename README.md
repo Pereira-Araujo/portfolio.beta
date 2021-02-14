@@ -1,7 +1,9 @@
 # Portfolio.beta
 
 🚧👷
-- Atualização de site-portfólio...
+- Atualização de site-portfólio... 
+
+- Atualmente trabalhando em uma versão em React do site-portfólio(13/02/21)
 
 - Resultado não definitivo : https://port.araujocoding.repl.co/
 
