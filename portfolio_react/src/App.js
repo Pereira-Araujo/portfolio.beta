@@ -18,8 +18,7 @@ const dark = () => {
 
 function App() {
   return (
-     
-    <Container>
+  <Container>
     <BotaoDark onClick={dark}>Dark/Light</BotaoDark>
       <Sobre />
       <Galeria />
