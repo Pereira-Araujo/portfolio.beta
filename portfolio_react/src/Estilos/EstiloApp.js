@@ -5,3 +5,10 @@ export const Container = styled.main`
   flex-direction: row;
   align-items: center;
 `;
+
+export const BotaoDark =styled.p`
+position:relative;
+bottom:360px;
+left:0;
+
+`

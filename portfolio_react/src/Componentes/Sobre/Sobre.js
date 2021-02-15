@@ -12,8 +12,10 @@ import iconeLinkedin from "../assets/Sobre_imagens/linkedin.png";
 import iconeRepl from "../assets/Sobre_imagens/repl.png";
 import iconeCodePen from "../assets/Sobre_imagens/codepen.png";
 
-import { Icones, FotoPerfil, IconeLink } from "../Props/Icones";
+import { Icones, FotoPerfil, IconeLink} from "../Props/Icones";
 import { Titulo } from "../Props/Titulo";
+
+
 
 const ContainerSobre = styled.main`
   display: flex;
@@ -34,6 +36,8 @@ class Sobre extends React.Component {
 
           <article>
             <Titulo titulo={"Adriano P. de Araujo"} />
+           
+
 
             <p>
               Olá, meu neu nome é <b>Adriano</b>, sou estudante de programação
@@ -44,22 +48,26 @@ class Sobre extends React.Component {
           <article>
             <Titulo titulo={"Skills"} />
 
+          <span class="icones">
             <Icones iconeImagem={iconeHTML} />
             <Icones iconeImagem={iconeCSS} />
             <Icones iconeImagem={iconeJS} />
+          </span>
             <Icones iconeImagem={iconeGithub} />
           </article>
 
           <article>
             <Titulo titulo={"Aprendendo"} />
 
+          <span class="iconesAprendendo">
             <Icones iconeImagem={iconeC} />
             <Icones iconeImagem={iconeReact} />
+          </span>
           </article>
 
           <article>
             <Titulo titulo={"Me ache:"} />
-
+           <span class="iconesAche">
             <IconeLink
               link={"https://www.linkedin.com/in/araujocode/"}
               descricao={"linkedin"}
@@ -76,6 +84,7 @@ class Sobre extends React.Component {
               descricao={"CodePen"}
               iconeImagemLink={iconeCodePen}
             />
+            </span>
             <IconeLink
               link={"https://github.com/Pereira-Araujo"}
               descricao={"GitHub"}
