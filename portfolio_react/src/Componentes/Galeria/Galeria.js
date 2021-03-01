@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Galeria, Imagens, BotaoE, BotaoR } from "./Estilo_Galeria";
+import { Galeria, Imagens, BotaoE, BotaoR } from "./Estilo_Galeria";
 import Labedin from "../assets/img/labedin.png";
 import Luna from "../assets/img/luna.png";
 import Other from "../assets/img/otherside.png";
@@ -61,7 +61,6 @@ class Gallery extends React.Component {
 
   render() {
     return (
-      <Container>
         <Galeria>
           <BotaoE onClick={this.esquerda}>
             <img src={Back} alt={"back"} />
@@ -73,7 +72,6 @@ class Gallery extends React.Component {
             <img src={Next} alt={"next"} />
           </BotaoR>
         </Galeria>
-      </Container>
     );
   }
 }
