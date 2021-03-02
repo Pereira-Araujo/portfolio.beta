@@ -19,11 +19,11 @@ export const Imagens = styled.img`
   }
   @media (max-width: 646px) {
     width: 35rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
   @media (max-width: 568px) {
     width: 30rem;
-    margin-top: 6rem;
+    margin-top: 10rem;
   }
   @media (max-width: 482px) {
     display: none;

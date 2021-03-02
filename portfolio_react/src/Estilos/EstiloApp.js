@@ -18,23 +18,21 @@ export const Container = styled.main`
   flex-direction: row;
   align-items: center;
 
-@media(max-width:1300px){
-  flex-direction:column;
-  
-}
-
-`;
-
-export const BotaoDark =styled.p`
-position:relative;
-bottom:360px;
-left:0;
-
-@media(max-width:1500px){
-  position:absolute;
-  bottom:620px;
-
-}
-
-
+  @media (max-width: 1300px) {
+    flex-direction: column;
+  }
 `
+
+export const BotaoDark = styled.p`
+  position: relative;
+  bottom: 360px;
+  left: 0;
+
+  @media (max-width: 1450px) {
+    bottom: 320px;
+  }
+  @media (max-width: 1280px) {
+    bottom: auto;
+    left: auto;
+  }
+`;

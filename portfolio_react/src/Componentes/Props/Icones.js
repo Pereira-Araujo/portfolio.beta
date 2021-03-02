@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 const IconeTamanho = styled.img`
   width: 3rem;
+
+ 
 `;
 const FotoPerfilTamanho = styled.img`
   width: 8rem;
@@ -12,6 +14,7 @@ const FotoPerfilTamanho = styled.img`
 export const Icones = (props) => {
   return <IconeTamanho src={props.iconeImagem} />;
 };
+
 export const FotoPerfil = (props) => {
   return <FotoPerfilTamanho src={props.imagemPerfil} />;
 };

@@ -20,9 +20,18 @@ const ContainerSobre = styled.main`
   align-items: center;
   height: 100vh;
   width: 30%;
+
+  @media (max-width: 664px) {
+    padding-top: 6rem;
+    margin-right: 2rem;
+  }
 `;
 const SobreColumn = styled.section`
   text-align: center;
+
+  @media (max-width: 664px) {
+    padding-top: 4rem;
+  }
 `;
 
 class Sobre extends React.Component {
