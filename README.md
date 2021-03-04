@@ -1,10 +1,13 @@
 # Portfólio.beta
 
 🚧👷
+### A ideia
+A ideia desse repositório é testar e aplicar conhecimentos adquiridos ao longo da minha jornada como Dev. seguindo um modelo mais ou menos fixo.
 
-- Atualização de site-portfólio...
-
-- Atualmente trabalhando em uma versão em React do site-portfólio(13/02/21)
+- [X] Versão Vanilla(HTML,CSS e JS)
+- [ ] Limpar o código responsável pela Galeria da Versão Vanilla
+- [X] Versão em React
+- [ ] Responsividade da versão React
 
 - Resultado não definitivo(em HTML,CSS e JS puro): <https://port.araujocoding.repl.co/>
 
