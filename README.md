@@ -1,6 +1,5 @@
 # Portfólio.beta
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+<img src="https://img.shields.io/github/languages/count/Pereira-Araujo/portfolio.beta?style=flat-square"/> <img src="https://img.shields.io/github/last-commit/Pereira-Araujo/portfolio.beta?style=flat-square"/> <img alt="commits/mês" src="https://img.shields.io/github/commit-activity/m/Pereira-Araujo/portfolio.beta?style=flat-square"/> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 🚧👷
 ### A ideia
