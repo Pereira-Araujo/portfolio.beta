@@ -7,10 +7,15 @@ export const dark = () => {
   let icones = document.querySelector(".icones");
   let iconesAprendendo = document.querySelector(".iconesAprendendo");
   let iconesAche = document.querySelector(".iconesAche");
+  let setaIr = document.querySelector(".setaIr")
+  let setaVoltar = document.querySelector(".setaVoltar")
 
   icones.classList.toggle("dark");
   iconesAprendendo.classList.toggle("dark");
   iconesAche.classList.toggle("dark");
+  setaIr.classList.toggle("dark")
+  setaVoltar.classList.toggle("dark")
+
 };
 
 export const Container = styled.main`
@@ -24,15 +29,5 @@ export const Container = styled.main`
 `
 
 export const BotaoDark = styled.p`
-  position: relative;
-  bottom: 360px;
-  left: 0;
-
-  @media (max-width: 1450px) {
-    bottom: 320px;
-  }
-  @media (max-width: 1280px) {
-    bottom: auto;
-    left: auto;
-  }
+font-weight:bold;
 `;

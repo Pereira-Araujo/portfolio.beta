@@ -9,7 +9,6 @@ import imagemPerfil from "../assets/Sobre_imagens/araujo.png";
 import iconeC from "../assets/Sobre_imagens/c.png";
 import iconeReact from "../assets/Sobre_imagens/react.jpg";
 import iconeLinkedin from "../assets/Sobre_imagens/linkedin.png";
-import iconeRepl from "../assets/Sobre_imagens/repl.png";
 import iconeCodePen from "../assets/Sobre_imagens/codepen.png";
 
 import { Icones, FotoPerfil, IconeLink } from "../Props/Icones";
@@ -18,8 +17,9 @@ import { Titulo } from "../Props/Titulo";
 const ContainerSobre = styled.main`
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 30%;
+
 
   @media (max-width: 664px) {
     padding-top: 6rem;
@@ -78,12 +78,6 @@ class Sobre extends React.Component {
                 descricao={"linkedin"}
                 iconeImagemLink={iconeLinkedin}
               />
-              <IconeLink
-                link={"https://repl.it/@Araujocoding"}
-                descricao={"Repl.it"}
-                iconeImagemLink={iconeRepl}
-              />
-
               <IconeLink
                 link={"https://codepen.io/araujo6_6"}
                 descricao={"CodePen"}

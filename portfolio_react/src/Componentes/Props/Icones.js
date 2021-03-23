@@ -1,18 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 
-const IconeTamanho = styled.img`
+const IconeHabilidade = styled.img`
   width: 3rem;
 
- 
 `;
+
 const FotoPerfilTamanho = styled.img`
   width: 8rem;
   height: 8rem;
   border-radius: 100%;
 `;
 export const Icones = (props) => {
-  return <IconeTamanho src={props.iconeImagem} />;
+  return <IconeHabilidade src={props.iconeImagem} />;
 };
 
 export const FotoPerfil = (props) => {
@@ -22,7 +22,7 @@ export const FotoPerfil = (props) => {
 export const IconeLink = (props) => {
   return (
     <a href={props.link} alt={props.descricao} target="_blank">
-      <IconeTamanho src={props.iconeImagemLink} />
+      <IconeHabilidade src={props.iconeImagemLink} />
     </a>
   );
 };

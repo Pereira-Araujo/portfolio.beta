@@ -63,13 +63,13 @@ class Gallery extends React.Component {
     return (
         <Galeria>
           <BotaoE onClick={this.esquerda}>
-            <img src={Back} alt={"back"} />
+            <img class="setaVoltar" src={Back} alt={"back"} />
           </BotaoE>
           <a href={this.state.link} target="_blank">
             <Imagens src={this.state.imagem} alt="upfour" />
           </a>
           <BotaoR onClick={this.direita}>
-            <img src={Next} alt={"next"} />
+            <img class="setaIr" src={Next} alt={"next"} />
           </BotaoR>
         </Galeria>
     );
