@@ -8,7 +8,7 @@ A ideia desse repositório é testar e aplicar conhecimentos adquiridos ao longo
 - [X] Versão Vanilla(HTML,CSS e JS)
 - [ ] Limpar o código responsável pela Galeria da Versão Vanilla
 - [X] Versão em React
-- [ ] Responsividade da versão React
+- [X] Responsividade da versão React
 
 *Resultado não definitivo(em HTML,CSS e JS puro): <https://port.araujocoding.repl.co/>*
 
