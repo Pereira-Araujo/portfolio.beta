@@ -10,11 +10,11 @@ A ideia desse repositório é testar e aplicar conhecimentos adquiridos ao longo
 - [X] Versão em React
 - [X] Responsividade da versão React
 
-*Resultado não definitivo(em HTML,CSS e JS puro): <https://port.araujocoding.repl.co/>*
+*Resultado não definitivo(talvez **nunca** definitivo 😱) : [**Aqui**](https://thirsty-toys.surge.sh/)*
 
-<img width="50%" src="https://user-images.githubusercontent.com/60116988/112471016-20a96200-8d4a-11eb-9d72-c0fa01275f40.gif"/>
+
+![asset1](https://user-images.githubusercontent.com/60116988/112471449-b0e7a700-8d4a-11eb-9f6f-0cd0ad725774.png)
+
+<img width="30%" src="https://user-images.githubusercontent.com/60116988/112471016-20a96200-8d4a-11eb-9d72-c0fa01275f40.gif"/>
  
  
-
-![portfólio light mode](https://64.media.tumblr.com/94df85146f1f81aa2a47830d77c8c61c/876f6b3cae29e79f-b5/s2048x3072/413db8efea596330ed0ae8efd91f1f0907d307be.png)
-![portfólio dark mode](https://64.media.tumblr.com/725e57c86233ebeb9a801e4b7f65bd7e/876f6b3cae29e79f-c0/s2048x3072/630288480e2408259d71f75cc1b2a7b9e7f69cd3.png)
