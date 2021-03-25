@@ -16,4 +16,4 @@ A ideia desse repositório é testar e aplicar conhecimentos adquiridos ao longo
 
 ![asset1](https://user-images.githubusercontent.com/60116988/112471449-b0e7a700-8d4a-11eb-9f6f-0cd0ad725774.png)
 
-<img width="30%" src="https://user-images.githubusercontent.com/60116988/112471016-20a96200-8d4a-11eb-9d72-c0fa01275f40.gif"/>![mobile2](https://user-images.githubusercontent.com/60116988/112472188-9e21a200-8d4b-11eb-8ca0-f64991997ead.png)
+<img width="30%" src="https://user-images.githubusercontent.com/60116988/112471016-20a96200-8d4a-11eb-9d72-c0fa01275f40.gif"/>      <img width="34.1%" src="https://user-images.githubusercontent.com/60116988/112472188-9e21a200-8d4b-11eb-8ca0-f64991997ead.png"/>
