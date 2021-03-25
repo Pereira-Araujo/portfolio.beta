@@ -1,5 +1,4 @@
-![mobile2](https://user-images.githubusercontent.com/60116988/112472160-93ffa380-8d4b-11eb-854c-418e81e9bea5.png)
-![mobile2](https://user-images.githubusercontent.com/60116988/112472175-995cee00-8d4b-11eb-8d2c-87075f0d8b25.png)
+
 # Portfólio.beta
 <img src="https://img.shields.io/github/languages/count/Pereira-Araujo/portfolio.beta?style=flat-square"/> <img src="https://img.shields.io/github/last-commit/Pereira-Araujo/portfolio.beta?style=flat-square"/> <img alt="commits/mês" src="https://img.shields.io/github/commit-activity/m/Pereira-Araujo/portfolio.beta?style=flat-square"/> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
