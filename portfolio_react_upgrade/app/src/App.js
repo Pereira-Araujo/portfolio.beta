@@ -1,10 +1,13 @@
+import Main from './Main/index'
 
-function App() {
+function App (){
+
   return (
-   <main>
+    <main> 
+       <Main/>
+    </main>
      
-   </main>
-  );
+  )
 }
 
 export default App;
