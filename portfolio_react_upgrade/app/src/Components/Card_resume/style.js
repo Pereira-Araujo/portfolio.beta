@@ -1,5 +1,11 @@
 import styled from 'styled-components'
 
+export const Container = styled.main`
+display:flex;
+align-items:center;
+
+`
+
 export const Card = styled.section`
   margin-left: 2rem;
   width: 20rem;
@@ -8,6 +14,12 @@ export const Card = styled.section`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  @media(max-width:977px){
+    margin-left:0;
+    margin-top:2rem;
+}
+
 `
 export const Resume = styled.section`
   display: flex;
@@ -40,6 +52,13 @@ export const ContactBackIcon = styled.section`
 export const ContactIcon = styled.img`
   width: 1.4rem;
   border-radius: 10%;
+
+  &:hover{
+    filter:invert(15%);
+
+  }
+  
+
 `
 export const BoxTopics = styled.section`
   width: 40%;
@@ -54,9 +73,19 @@ export const Topics = styled.nav`
   & a {
     color: black;
   }
+  & a:hover{
+    filter:invert(15%);
+
+  }
+
 `
 
 export const TopicIcon = styled.img`
   width: 1.3rem;
   margin-right: 1rem;
+
+`
+export const ChangeThemeButton = styled.img`
+  margin-top:2rem;
+  width:1.3rem;
 `

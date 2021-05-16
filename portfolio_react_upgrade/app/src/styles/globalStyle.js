@@ -17,7 +17,6 @@ export default createGlobalStyle`
         
     }
     .icons {
-        
         color: ${(props) => props.theme.text};
         filter ${(props) => props.theme.filter}
 

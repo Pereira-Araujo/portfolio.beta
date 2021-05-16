@@ -4,6 +4,7 @@ import { lightTheme, darkTheme } from '../../styles/theme'
 import GlobalStyles from '../../styles/globalStyle'
 
 import {
+  Container,
   Card,
   Resume,
   PhotoProfile,
@@ -13,7 +14,8 @@ import {
   ContactIcon,
   BoxTopics,
   Topics,
-  TopicIcon
+  TopicIcon,
+  ChangeThemeButton
 } from './style'
 import ProfilePhoto from '../../assets/profile/araujo.png'
 import Linkedin from '../../assets/icons_contact/linkedin.png'
@@ -47,6 +49,7 @@ function Card_resume() {
 
   return (
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
+      <Container>
       <Card className={'blocks'}>
         <GlobalStyles />
         <Resume>
@@ -121,7 +124,8 @@ function Card_resume() {
               Contato
             </a>
           </Topics>
-          <ContactIcon
+
+          <ChangeThemeButton
             className="icons"
             src={changeIcon}
             alt={descriptionIcon}
@@ -129,6 +133,7 @@ function Card_resume() {
           />
         </BoxTopics>
       </Card>
+      </Container>
     </ThemeProvider>
   )
 }
