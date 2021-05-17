@@ -7,17 +7,18 @@ align-items:center;
 `
 
 export const Card = styled.section`
-  margin-left: 2rem;
   width: 20rem;
-  height: 34rem;
+  height: 36rem;
+  padding-top:2rem;
+  margin-left:3rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
   @media(max-width:977px){
-    margin-left:0;
     margin-top:2rem;
+    margin-left:0;
 }
 
 `
@@ -70,9 +71,6 @@ export const Topics = styled.nav`
   flex-direction: column;
   align-items: flex-start;
 
-  & a {
-    color: black;
-  }
   & a:hover{
     filter:invert(15%);
 

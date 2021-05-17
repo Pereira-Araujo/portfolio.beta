@@ -12,6 +12,12 @@ export default createGlobalStyle`
         background: ${(props) => props.theme.background};
         color: ${(props) => props.theme.text};        
     }
+
+      
+    a {
+        color: ${(props) => props.theme.titles};
+        
+    }
     h1 {
         color: ${(props) => props.theme.titles};
         

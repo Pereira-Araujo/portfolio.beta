@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
-import { lightTheme, darkTheme } from '../../styles/theme'
-import GlobalStyles from '../../styles/globalStyle'
+import { lightTheme, darkTheme } from '../../../styles/theme'
+import GlobalStyles from '../../../styles/globalStyle'
 
 import {
   Container,
@@ -17,18 +17,18 @@ import {
   TopicIcon,
   ChangeThemeButton
 } from './style'
-import ProfilePhoto from '../../assets/profile/araujo.png'
-import Linkedin from '../../assets/icons_contact/linkedin.png'
-import Github from '../../assets/icons_contact/github.png'
-import Email from '../../assets/icons_contact/email.png'
-import Home from '../../assets/icons_menu/home.png'
-import Projects from '../../assets/icons_menu/gallery.png'
-import Skills from '../../assets/icons_menu/skills.png'
-import About from '../../assets/icons_menu/about.png'
-import Contact from '../../assets/icons_menu/chat.png'
+import ProfilePhoto from '../../../assets/profile/araujo.png'
+import Linkedin from '../../../assets/icons_contact/linkedin.png'
+import Github from '../../../assets/icons_contact/github.png'
+import Email from '../../../assets/icons_contact/email.png'
+import Home from '../../../assets/icons_menu/home.png'
+import Projects from '../../../assets/icons_menu/gallery.png'
+import Skills from '../../../assets/icons_menu/skills.png'
+import About from '../../../assets/icons_menu/about.png'
+import Contact from '../../../assets/icons_menu/chat.png'
 
-import MoonIcon from '../../assets/icons_change-theme/moon.png'
-import SunIcon from '../../assets/icons_change-theme/sun.png'
+import MoonIcon from '../../../assets/icons_change-theme/moon.png'
+import SunIcon from '../../../assets/icons_change-theme/sun.png'
 
 function Card_resume() {
   const [isDarkTheme, setIsDarkTheme] = useState(false)
@@ -98,29 +98,29 @@ function Card_resume() {
         </Resume>
 
         <BoxTopics>
-          <Topics className="icons">
+          <Topics>
             <a href={"#home"}>
-              <TopicIcon src={Home} alt={'Home'} />
+              <TopicIcon className="icons" src={Home} alt={'Home'} />
               Home
             </a>
 
             <a href={"#projects"}>
-              <TopicIcon src={Projects} alt={'Projetos'} />
+              <TopicIcon className="icons" src={Projects} alt={'Projetos'} />
               Projetos
             </a>
 
             <a href={"#skills"}>
-              <TopicIcon src={Skills} alt={'Habilidade'} />
+              <TopicIcon className="icons" src={Skills} alt={'Habilidade'} />
               Habilidades
             </a>
 
             <a href={"#about"}>
-              <TopicIcon src={About} alt={'Sobre'} />
+              <TopicIcon className="icons" src={About} alt={'Sobre'} />
               Sobre
             </a>
 
             <a href={"#contact"}>
-              <TopicIcon src={Contact} alt={'Contato'} />
+              <TopicIcon className="icons" src={Contact} alt={'Contato'} />
               Contato
             </a>
           </Topics>

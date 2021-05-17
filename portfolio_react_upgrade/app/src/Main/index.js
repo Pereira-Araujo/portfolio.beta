@@ -1,5 +1,5 @@
-import CardResume from '../Components/Card_resume/index'
-import Works from '../Components/Card_works/index'
+import ContainerLeft from '../Components/LeftSide/Container/index'
+import ContainerRight from '../Components/RightSide/Container/index'
 import {Container} from './style'
 
 function Main(){
@@ -7,8 +7,8 @@ function Main(){
   
     return (
      <Container>
-         <CardResume/>
-         <Works/>
+         <ContainerLeft/>
+         <ContainerRight/>
      </Container>
     )
   }

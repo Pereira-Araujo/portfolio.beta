@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-width:100vw;
+width:96vw;
 height:100vh;
 display:flex;
 justify-content:space-around;
