@@ -10,6 +10,7 @@ export const Card = styled.section`
   width: 20rem;
   height: 36rem;
   padding-top:2rem;
+  
   margin-left:3rem;
   border-radius: 2rem;
   display: flex;
@@ -26,6 +27,7 @@ export const Resume = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left:2rem;
 `
 export const PhotoProfile = styled.img`
   border-radius: 100%;
@@ -58,8 +60,6 @@ export const ContactIcon = styled.img`
     filter:invert(15%);
 
   }
-  
-
 `
 export const BoxTopics = styled.section`
   width: 40%;

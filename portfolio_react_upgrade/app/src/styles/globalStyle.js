@@ -32,4 +32,8 @@ export default createGlobalStyle`
         background:${(props) => props.theme.blockColor};
         color :${(props) => props.theme.text}
     }
+    .block_right{
+        width:${(props) => props.theme.sizeX};
+        height:${(props)=>props.theme.sizeY}
+    }
 `

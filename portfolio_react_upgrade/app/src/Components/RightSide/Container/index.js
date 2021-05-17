@@ -1,4 +1,4 @@
-import CardTitle  from '../RightElements/Card_title/index'
+import CardWorks  from '../RightElements/Card_works/index'
 
 import {Container} from './style'
 
@@ -6,7 +6,7 @@ import {Container} from './style'
 function RightSide (){
     return(
         <Container>
-          <CardTitle/>
+          <CardWorks/>
        
         </Container>
 
