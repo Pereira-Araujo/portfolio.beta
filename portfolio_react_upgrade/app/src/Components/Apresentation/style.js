@@ -15,14 +15,22 @@ export const IntroductionPhoto = styled.img`
 
 export const IntroductionBox = styled.div`
   width: 770px;
-  padding: 183px 52px 168px 192px;
+  padding: 145px 52px 132px 192px;
   background-color: #f26363;
 `;
 
 export const IntroductionMenu = styled.nav`
   display: flex;
   justify-content: flex-end;
+  background:#f26363;
+
 `;
+
+export const IntroductionNavigation = styled.a`
+  color:white;
+  text-decoration:none;
+  padding:1rem;
+`
 
 export const IntroductionDescription = styled.div`
   width: 680px;

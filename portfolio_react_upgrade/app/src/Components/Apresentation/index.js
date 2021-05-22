@@ -10,7 +10,8 @@ import {
   IntroductionSubTitle,
   IntroductionSubText,
   IntroductionLinks,
-  IntroductionIconesLink
+  IntroductionIconesLink,
+  IntroductionNavigation
 } from './style'
 import LinkedinIcon from '../../assets/icons/linkedin.png'
 import GithubIcon from '../../assets/icons/github.png'
@@ -28,9 +29,11 @@ function Apresentation() {
         />
         <section>
           <IntroductionMenu>
-            <a href={'#insta'}>Quem Sou</a>
-            <a href={'#insta'}>Projeto</a>
-            <a href={'#insta'}>Contato</a>
+            <>
+            <IntroductionNavigation href={'#about'}>Quem Sou</IntroductionNavigation>
+            <IntroductionNavigation href={'#projects'}>Projeto</IntroductionNavigation>
+            <IntroductionNavigation href={'#contact'}>Contato</IntroductionNavigation>
+            </>
           </IntroductionMenu>
 
           <IntroductionBox>
@@ -47,16 +50,16 @@ function Apresentation() {
               </IntroductionSubText>
               </IntroductionTitle>
               <IntroductionLinks>
-                <a href={'#insta'}>
+                <a href={'https://www.linkedin.com/in/araujocode/'} target="_blank" >
                   <IntroductionIconesLink src={LinkedinIcon} alt={'Ícone do Linkedin'} />
                 </a>
-                <a href={'#insta'}>
+                <a href={'https://github.com/Pereira-Araujo'} target="_blank" >
                   <IntroductionIconesLink src={GithubIcon} alt={'Ícone do Github'} />
                 </a>
-                <a href={'#insta'}>
+                <a href={'https://codepen.io/araujo6_6'} target="_blank">
                   <IntroductionIconesLink src={CodePenIcon} alt={'Ícone do CodePen'} />
                 </a>
-                <a href={'#insta'}>
+                <a href={'mailto:araujo_ir@yahoo.com'} target="_blank" >
                   <IntroductionIconesLink src={EmailIcon} alt={'Ícone do Email'} />
                 </a>
               </IntroductionLinks>
