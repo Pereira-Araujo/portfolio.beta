@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Introduction = styled.main`
-  width: 100vw;
   height: 580px;
   display: flex;
   flex-direction: row;
@@ -9,7 +8,7 @@ export const Introduction = styled.main`
 `;
 
 export const IntroductionPhoto = styled.img`
-  width: 480px;
+  width: 468px;
   height: 580px;
 `;
 
