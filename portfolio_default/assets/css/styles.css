@@ -10,7 +10,8 @@
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
-  --theme-color:white;
+  --dark-theme-color:white;
+  --dark-theme-link:#b1c3f5;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -446,11 +447,11 @@ img{
 
 .dark{
   background:black;
-  color: var(--theme-color);
+  color: var(--dark-theme-color);
+
 }
 .dark-header{
   background:rgb(22, 22, 22);
-  color:var(--theme-color);
-
-
+  color:var(--dark-theme-color);
 }
+
