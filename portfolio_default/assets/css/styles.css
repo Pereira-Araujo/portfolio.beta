@@ -270,7 +270,7 @@ img{
 
 /* ===== SKILLS =====*/
 .skills__container{
-  text-align: center;
+  text-align: left;
 }
 .skills__blocks{
   display:flex;
@@ -374,6 +374,24 @@ img{
   margin: 0 var(--mb-2)
 }
 
+/* ===== DARK-THEME =====*/
+
+.dark{
+  background:black;
+  color: var(--dark-theme-color);
+}
+.dark u, strong{
+  color: var(--first-color);
+}
+.dark header{
+  background-color:var(--dark-theme-background);
+}
+.dark header a{
+  color: var(--first-color);
+
+}
+
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
@@ -429,10 +447,12 @@ img{
     width: 457px;
     bottom: 15%;
   }
+ 
 
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    justify-content: center;
     text-align: initial;
   }
   .about__img img{
@@ -461,20 +481,19 @@ img{
   }
 }
 
+@media screen and (max-height:610px){
+   #button-contact{
+    display:none;
+  }
+}
+
+@media screen and (max-width:400px){
+  .skills__data{
+    width:100%;
+    justify-content:center;
+  }
+}
+
 /* ===== WORK =====*/
 
-.dark{
-  background:black;
-  color: var(--dark-theme-color);
-}
-.dark u, strong{
-  color: var(--first-color);
-}
-.dark header{
-  background-color:var(--dark-theme-background);
-}
-.dark header a{
-  color: var(--first-color);
-
-}
 
