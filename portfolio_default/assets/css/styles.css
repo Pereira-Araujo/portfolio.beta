@@ -311,7 +311,9 @@ img{
 }
 
 .skills__img{
-  border-radius: .5rem;
+  border-radius:1rem;
+  height:462px;
+  width:800px;
 }
 
 /* ===== WORK =====*/
@@ -481,7 +483,7 @@ img{
   }
 }
 
-@media screen and (max-height:610px){
+@media screen and (max-height:630px){
    #button-contact{
     display:none;
   }
@@ -491,6 +493,9 @@ img{
   .skills__data{
     width:100%;
     justify-content:center;
+  }
+  .skills__img{
+    display:none;
   }
 }
 
