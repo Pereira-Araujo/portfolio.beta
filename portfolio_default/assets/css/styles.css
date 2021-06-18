@@ -12,6 +12,7 @@
   --second-color: #0E2431;
   --dark-theme-color:white;
   --dark-theme-link:#b1c3f5;
+  --dark-theme-background:black;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -320,6 +321,7 @@ img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
+  height:220px;
 }
 .work__img img{
   transition: 1s;
@@ -340,6 +342,7 @@ img{
   outline: none;
   margin-bottom: var(--mb-4);
 }
+
 .contact__button{
   display: block;
   border: none;
@@ -463,12 +466,14 @@ img{
   background:black;
   color: var(--dark-theme-color);
 }
-
 .dark u, strong{
   color: var(--first-color);
 }
-.dark-header{
-  background:rgb(22, 22, 22);
-  color:var(--dark-theme-color);
+.dark header{
+  background-color:var(--dark-theme-background);
+}
+.dark header a{
+  color: var(--first-color);
+
 }
 

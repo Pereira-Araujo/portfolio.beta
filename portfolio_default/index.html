@@ -20,7 +20,9 @@
     <nav class="nav bd-grid">
       <div>
         <a href="#" class="nav__logo">Adriano</a>
-        <button onClick="changeTheme()">Change</button>
+        <span id="iconTheme" onclick='changeTheme()' >
+          <i  class='bx bx-sun'></i>
+        </span>
       </div>
 
       <div class="nav__menu" id="nav-menu">
@@ -123,7 +125,7 @@
           <h2 class="skills__subtitle">Hard Skills</h2>
           <p class="skills__text">
             Seguem algumas hard skills que domino e tenho utilizado.
-            Também tenho estudado <strong>Node.Js</strong> e <strong>C++</strong>, 
+            Também tenho estudado <strong>Node.Js</strong> e <strong>C++</strong>,
             entre outras <i>coisitas</i> mais;
             para saber mais sobre o que venho estudando,
             você pode <a href="https://github.com/Pereira-Araujo/Estudos" target="_blank"><u
@@ -198,23 +200,23 @@
 
       <div class="work__container bd-grid">
         <div class="work__img">
-          <img src="assets/img/work1.jpg" alt="" />
+          <a href="https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/AstroMach"  target="_blank"><img src="assets/img/astromach.png" alt="astromach" /></a>
         </div>
         <div class="work__img">
-          <img src="assets/img/work2.jpg" alt="" />
+          <a href="https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/Chuck_Jokes"  target="_blank"><img src="assets/img/chuk_jokes.png" alt="" /></a>
         </div>
         <div class="work__img">
-          <img src="assets/img/work3.jpg" alt="" />
+          <a href="https://github.com/Pereira-Araujo/Desafio_Paytime"  target="_blank"><img src="assets/img/git_search.png" alt="" /></a>
         </div>
         <div class="work__img">
-          <img src="assets/img/work4.jpg" alt="" />
+         <a href="https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/OtherSide_Store"  target="_blank"><img src="assets/img/otherside.png" alt="" /></a>
         </div>
         <div class="work__img">
-          <img src="assets/img/work5.jpg" alt="" />
+          <a href="https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/LunaSocialMedia"  target="_blank"><img src="assets/img/luna_social.png" alt="" /></a>
         </div>
-        <div class="work__img">
-          <img src="assets/img/work6.jpg" alt="" />
-        </div>
+        <!-- <div class="work__img"> -->
+              <!--===== FUTURE WORK =====-->
+        <!-- </div> -->
       </div>
     </section>
 
@@ -223,11 +225,11 @@
       <h2 class="section-title">Contato</h2>
 
       <div class="contact__container bd-grid">
-        <form action="" class="contact__form">
-          <input type="text" placeholder="Name" class="contact__input" />
-          <input type="mail" placeholder="Email" class="contact__input" />
-          <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-          <input type="button" value="Enviar" class="contact__button button" />
+        <form action="https://getform.io/f/8cf51d2b-07e5-49a8-b721-58d0422893c0" method="POST" class="contact__form">
+          <input type="text" name="name" placeholder="Name" class="contact__input" />
+          <input type="email" name="email" placeholder="Email" class="contact__input" />
+          <textarea type="text" name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+          <button class="contact__button button" type="submit">Enviar</button>
         </form>
       </div>
     </section>
