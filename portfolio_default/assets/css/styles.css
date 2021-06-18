@@ -232,6 +232,7 @@ img{
 
 /*BUTTONS*/
 .button{
+  margin-top:0.8rem;
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
