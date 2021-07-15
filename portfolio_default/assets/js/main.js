@@ -65,9 +65,13 @@ const getApi = (url) => {
 
 const createDiv =(data)=>{
     let div = document.createElement('div')
+    div.classList.add("work__img")
     let link = document.createElement('a')
+    link.target = "_blank"
     let image = document.createElement('img')
-    link.innerHTML = data.link
+
+    link.href = data.url
+    image.src= data.image
 
     link.appendChild(image)
     div.appendChild(link)
