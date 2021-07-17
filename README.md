@@ -5,9 +5,9 @@
 ### A ideia
 A ideia desse repositório é testar e aplicar conhecimentos adquiridos ao longo da minha jornada como Dev. seguindo um modelo mais ou menos fixo.
 #### Resultados:
-- 1° [Projeto em Vanilla](https://portfolio-beta.araujocoding.repl.co/) 
-- 2° [Projeto em React](https://thirsty-toys.surge.sh/)
-- 3° [Site padrão atualizado](https://dev-araujo.com.br/)
+- Versão 0.1 [Projeto em Vanilla](https://portfolio-beta.araujocoding.repl.co/) 
+- Versão 0.2 [Projeto em React](https://thirsty-toys.surge.sh/)
+- **Versão 0.3** [Site padrão atualizado](https://dev-araujo.com.br/)
 
 
 ![image](https://user-images.githubusercontent.com/60116988/122603826-5b6e1e00-d04b-11eb-8941-471e0aed4f8f.png)
