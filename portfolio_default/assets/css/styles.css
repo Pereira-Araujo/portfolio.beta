@@ -262,6 +262,8 @@ img{
 }
 .about__img{
   justify-self: center;
+  width:360px;
+ 
 }
 .about__img img{
   width: 200px;
